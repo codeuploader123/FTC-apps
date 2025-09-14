@@ -7,10 +7,10 @@ public class Main {
     String firstname = sc.nextLine(); // read user input
     System.out.print("Enter your last name: "); // ask user to enter a number
     String lastname = sc.nextLine(); // read user input
-    String name  = firstname + " " + lastname;
-    String newname = name.replace('a', 'x');
-    String finals = newname.trim();
-    System.out.println(finals);
+    String name  = firstname + " " + lastname; // concat both strings
+    String newname = name.replace('a', 'x'); // replace all 'a' with 'x'
+    String newname1 = newname.replace('A', 'X'); // replace all 'A' with 'X'
+    String finals = newname1.trim(); // remove all unnesecary spaces
+    System.out.println(finals); // print the final string
     }
 }
-
